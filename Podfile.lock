@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - FaveButton (2.0.3)
+  - Kanna (2.1.1)
+  - Locksmith (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage (~> 3.2)
+  - FaveButton (from `https://github.com/okipol88/fave-button`, branch `feature/selectionWithoutAnimation`)
+  - Kanna (~> 2.1.0)
+  - Locksmith
+
+EXTERNAL SOURCES:
+  FaveButton:
+    :branch: feature/selectionWithoutAnimation
+    :git: https://github.com/okipol88/fave-button
+
+CHECKOUT OPTIONS:
+  FaveButton:
+    :commit: a8af7d902e3d962c8aa466b4a5f9039de2fe452e
+    :git: https://github.com/okipol88/fave-button
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  FaveButton: 5286042e6c19911b21dfc65c6885b79080b5d66c
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  Locksmith: 310b4cc5031af5728bf4db5d4de547a5100c6a3b
+
+PODFILE CHECKSUM: 661f39d0202ae2f7492651663adda67c51bd697c
+
+COCOAPODS: 1.2.0

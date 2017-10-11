@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42D1AF009F239454852811CC /* Pods_GithubTrend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5639DB2B792781CA21AE555 /* Pods_GithubTrend.framework */; };
+		6B08B9771F8DED63008F83F2 /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B9761F8DED63008F83F2 /* ToastManager.swift */; };
+		6B08B97F1F8DF882008F83F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B97E1F8DF882008F83F2 /* Assets.xcassets */; };
+		6B15A9A91F5EB94200FC8AEC /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B15A9A71F5EB94200FC8AEC /* RepoTableViewCell.swift */; };
+		6B15A9AA1F5EB94200FC8AEC /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B15A9A81F5EB94200FC8AEC /* RepoTableViewCell.xib */; };
 		6B1623DD1F399C9B00D4848B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1623DC1F399C9B00D4848B /* AppDelegate.swift */; };
-		6B1623DF1F399C9B00D4848B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1623DE1F399C9B00D4848B /* ViewController.swift */; };
+		6B1623DF1F399C9B00D4848B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1623DE1F399C9B00D4848B /* HomeViewController.swift */; };
 		6B1623E21F399C9C00D4848B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1623E01F399C9C00D4848B /* Main.storyboard */; };
-		6B1623E41F399C9C00D4848B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1623E31F399C9C00D4848B /* Assets.xcassets */; };
 		6B1623E71F399C9C00D4848B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1623E51F399C9C00D4848B /* LaunchScreen.storyboard */; };
+		6B2A09FC1F3C74F900BD33D2 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A09FB1F3C74F900BD33D2 /* Repo.swift */; };
+		6B2A09FE1F3C750800BD33D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A09FD1F3C750800BD33D2 /* User.swift */; };
+		6B399BC81F600AE3000B453E /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B399BC61F600AE3000B453E /* UserTableViewCell.swift */; };
+		6B399BC91F600AE3000B453E /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B399BC71F600AE3000B453E /* UserTableViewCell.xib */; };
+		6B6168251F63B0E300EF2E53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B6168241F63B0E300EF2E53 /* GoogleService-Info.plist */; };
+		6B73B6CE1F63E4D2005FCDA0 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73B6CD1F63E4D2005FCDA0 /* FilterViewController.swift */; };
+		6BCD2DAE1F7CEE8500A40401 /* GitHubAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCD2DAD1F7CEE8500A40401 /* GitHubAPIManager.swift */; };
+		6BFD83F81F52741F000F6142 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD83F61F52741F000F6142 /* BaseViewController.swift */; };
+		6BFD83F91F52741F000F6142 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD83F71F52741F000F6142 /* MenuViewController.swift */; };
+		6BFD83FB1F527CE0000F6142 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD83FA1F527CE0000F6142 /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B08B9761F8DED63008F83F2 /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
+		6B08B97E1F8DF882008F83F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B15A9A71F5EB94200FC8AEC /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		6B15A9A81F5EB94200FC8AEC /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
 		6B1623D91F399C9B00D4848B /* GithubTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1623DC1F399C9B00D4848B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B1623DE1F399C9B00D4848B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B1623DE1F399C9B00D4848B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6B1623E11F399C9C00D4848B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B1623E31F399C9C00D4848B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1623E61F399C9C00D4848B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1623E81F399C9C00D4848B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2A09FB1F3C74F900BD33D2 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		6B2A09FD1F3C750800BD33D2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B399BC61F600AE3000B453E /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		6B399BC71F600AE3000B453E /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		6B6168241F63B0E300EF2E53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B73B6CD1F63E4D2005FCDA0 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		6BCD2DAD1F7CEE8500A40401 /* GitHubAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIManager.swift; sourceTree = "<group>"; };
+		6BFD83F61F52741F000F6142 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6BFD83F71F52741F000F6142 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6BFD83FA1F527CE0000F6142 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		AE354AB7A0FC9A0EE2209538 /* Pods-GithubTrend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTrend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubTrend/Pods-GithubTrend.debug.xcconfig"; sourceTree = "<group>"; };
+		D5639DB2B792781CA21AE555 /* Pods_GithubTrend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubTrend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA37324087DF6024DC368730 /* Pods-GithubTrend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubTrend.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubTrend/Pods-GithubTrend.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D1AF009F239454852811CC /* Pods_GithubTrend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				6B1623DB1F399C9B00D4848B /* GithubTrend */,
 				6B1623DA1F399C9B00D4848B /* Products */,
+				F1D1596C85D785F32944754E /* Pods */,
+				B0D59EF931A2124682700397 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,60 @@
 		6B1623DB1F399C9B00D4848B /* GithubTrend */ = {
 			isa = PBXGroup;
 			children = (
+				6B08B97E1F8DF882008F83F2 /* Assets.xcassets */,
+				6BCD2DAC1F7CEC5F00A40401 /* Api */,
+				6BFD83F61F52741F000F6142 /* BaseViewController.swift */,
+				6BFD83F71F52741F000F6142 /* MenuViewController.swift */,
+				6B2A09FA1F3C74E800BD33D2 /* Model */,
 				6B1623DC1F399C9B00D4848B /* AppDelegate.swift */,
-				6B1623DE1F399C9B00D4848B /* ViewController.swift */,
+				6B1623DE1F399C9B00D4848B /* HomeViewController.swift */,
+				6B15A9A71F5EB94200FC8AEC /* RepoTableViewCell.swift */,
+				6B15A9A81F5EB94200FC8AEC /* RepoTableViewCell.xib */,
 				6B1623E01F399C9C00D4848B /* Main.storyboard */,
-				6B1623E31F399C9C00D4848B /* Assets.xcassets */,
 				6B1623E51F399C9C00D4848B /* LaunchScreen.storyboard */,
 				6B1623E81F399C9C00D4848B /* Info.plist */,
+				6B6168241F63B0E300EF2E53 /* GoogleService-Info.plist */,
+				6BFD83FA1F527CE0000F6142 /* PlayViewController.swift */,
+				6B399BC61F600AE3000B453E /* UserTableViewCell.swift */,
+				6B399BC71F600AE3000B453E /* UserTableViewCell.xib */,
+				6B73B6CD1F63E4D2005FCDA0 /* FilterViewController.swift */,
+				6B08B9761F8DED63008F83F2 /* ToastManager.swift */,
 			);
 			path = GithubTrend;
+			sourceTree = "<group>";
+		};
+		6B2A09FA1F3C74E800BD33D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A09FB1F3C74F900BD33D2 /* Repo.swift */,
+				6B2A09FD1F3C750800BD33D2 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6BCD2DAC1F7CEC5F00A40401 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6BCD2DAD1F7CEE8500A40401 /* GitHubAPIManager.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		B0D59EF931A2124682700397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5639DB2B792781CA21AE555 /* Pods_GithubTrend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D1596C85D785F32944754E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE354AB7A0FC9A0EE2209538 /* Pods-GithubTrend.debug.xcconfig */,
+				DA37324087DF6024DC368730 /* Pods-GithubTrend.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B1623EB1F399C9C00D4848B /* Build configuration list for PBXNativeTarget "GithubTrend" */;
 			buildPhases = (
+				B8894EE0CA72A5B684C9BCF2 /* [CP] Check Pods Manifest.lock */,
 				6B1623D51F399C9B00D4848B /* Sources */,
 				6B1623D61F399C9B00D4848B /* Frameworks */,
 				6B1623D71F399C9B00D4848B /* Resources */,
+				898C7E0E750203AFF749100E /* [CP] Embed Pods Frameworks */,
+				58CA6FBD98C36D0086837C0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +207,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B1623E71F399C9C00D4848B /* LaunchScreen.storyboard in Resources */,
-				6B1623E41F399C9C00D4848B /* Assets.xcassets in Resources */,
 				6B1623E21F399C9C00D4848B /* Main.storyboard in Resources */,
+				6B15A9AA1F5EB94200FC8AEC /* RepoTableViewCell.xib in Resources */,
+				6B399BC91F600AE3000B453E /* UserTableViewCell.xib in Resources */,
+				6B08B97F1F8DF882008F83F2 /* Assets.xcassets in Resources */,
+				6B6168251F63B0E300EF2E53 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58CA6FBD98C36D0086837C0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubTrend/Pods-GithubTrend-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898C7E0E750203AFF749100E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubTrend/Pods-GithubTrend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8894EE0CA72A5B684C9BCF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B1623D51F399C9B00D4848B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1623DF1F399C9B00D4848B /* ViewController.swift in Sources */,
+				6BFD83F81F52741F000F6142 /* BaseViewController.swift in Sources */,
+				6B399BC81F600AE3000B453E /* UserTableViewCell.swift in Sources */,
+				6B15A9A91F5EB94200FC8AEC /* RepoTableViewCell.swift in Sources */,
+				6B08B9771F8DED63008F83F2 /* ToastManager.swift in Sources */,
+				6BFD83F91F52741F000F6142 /* MenuViewController.swift in Sources */,
+				6B73B6CE1F63E4D2005FCDA0 /* FilterViewController.swift in Sources */,
+				6BCD2DAE1F7CEE8500A40401 /* GitHubAPIManager.swift in Sources */,
+				6B2A09FE1F3C750800BD33D2 /* User.swift in Sources */,
+				6B2A09FC1F3C74F900BD33D2 /* Repo.swift in Sources */,
+				6B1623DF1F399C9B00D4848B /* HomeViewController.swift in Sources */,
+				6BFD83FB1F527CE0000F6142 /* PlayViewController.swift in Sources */,
 				6B1623DD1F399C9B00D4848B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +402,12 @@
 		};
 		6B1623EC1F399C9C00D4848B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE354AB7A0FC9A0EE2209538 /* Pods-GithubTrend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2V4N954R2Q;
 				INFOPLIST_FILE = GithubTrend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.titut.GithubTrend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +417,12 @@
 		};
 		6B1623ED1F399C9C00D4848B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA37324087DF6024DC368730 /* Pods-GithubTrend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2V4N954R2Q;
 				INFOPLIST_FILE = GithubTrend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.titut.GithubTrend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +449,7 @@
 				6B1623ED1F399C9C00D4848B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
